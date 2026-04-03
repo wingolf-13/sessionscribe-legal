@@ -17,16 +17,32 @@
   .highlight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 14px 18px; border-radius: 6px; margin: 20px 0; font-size: 15px; }
   .contact { background: #f5f5f5; padding: 16px 18px; border-radius: 8px; margin-top: 24px; }
   .contact a { color: #1976d2; }
+  .lang-switcher { max-width: 720px; margin: 0 auto 12px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .lang-switcher a { font-size: 12px; color: #1976d2; text-decoration: none; padding: 4px 8px; border-radius: 4px; }
+  .lang-switcher a:hover { background: #e3f2fd; }
+  .lang-switcher a.active { background: #1a1a2e; color: #fff; pointer-events: none; }
 </style>
 </head>
 <body>
+<div class="lang-switcher">
+  <a href="privacy.html">English</a>
+  <a href="privacy-de.html">Deutsch</a>
+  <a href="privacy-es.html">Español</a>
+  <a href="privacy-fr.html">Français</a>
+  <a href="privacy-it.html">Italiano</a>
+  <a href="privacy-ja.html">日本語</a>
+  <a href="privacy-ko.html">한국어</a>
+  <a href="privacy-pt.html">Português</a>
+  <a href="privacy-ru.html">Русский</a>
+  <a href="privacy-zh.html" class="active">中文</a>
+</div>
 <div class="container">
 
 <h1>隐私政策</h1>
 <p class="subtitle">SessionScribe &middot; 最后更新：2026年4月2日</p>
 
 <div class="highlight">
-  <strong>核心原则：</strong> SessionScribe完全在您的设备上处理所有音频和转录数据。任何音频、转录文本或个人数据均不会被发送至外部服务器。
+  <strong>核心原则：</strong> SessionScribe完全在您的设备上处理所有音频和转录数据。任何音频。转录文本或个人数据均不会被发送至外部服务器。
 </div>
 
 <h2>1. 我们处理的数据</h2>
@@ -50,7 +66,7 @@
 </ul>
 
 <h2>3. 可选的匿名使用统计</h2>
-<p>如果您在设置中启用\"共享匿名使用统计\"，应用会将汇总的使用数据（如会话次数和转录总时长）本地存储在您的设备上。该数据仅用于显示您的个人使用仪表盘，绝不会被传输至任何服务器。</p>
+<p>如果您在设置中启用"共享匿名使用统计"，应用会将汇总的使用数据（如会话次数和转录总时长）本地存储在您的设备上。该数据仅用于显示您的个人使用仪表盘，绝不会被传输至任何服务器。</p>
 
 <h2>4. 麦克风与语音识别</h2>
 <p>SessionScribe需要麦克风权限来录制音频。在支持的设备（iOS 26及以上）上，应用还可能使用语音识别权限进行Apple的设备端语音处理。这两项权限仅用于设备端转录。您可以随时在iOS设置中撤销这些权限。</p>
@@ -59,7 +75,7 @@
 <p>SessionScribe通过Apple的应用内购买系统提供可选订阅（Plus和Pro）。所有支付处理由Apple完成。我们不会接收、存储或访问您的支付信息。订阅状态通过您设备上的Apple StoreKit框架进行验证。</p>
 
 <h2>6. Face ID / 生物识别认证</h2>
-<p>如果您启用可选的应用锁定功能，SessionScribe将使用Apple的LocalAuthentication框架验证您的身份。生物识别数据（Face ID或Touch ID）完全由iOS处理，应用无法访问。</p>
+<p>如果您启用可选的应用锁定功能，SessionScribe将使用Apple的LocalAuthentication框架媌证您的身份。生物识别数据（Face ID或Touch ID）完全由iOS处理，应用无法访问。</p>
 
 <h2>7. 数据保留与删除</h2>
 <p>所有数据仅存储在您的设备上。您可以随时在应用内删除单个录音和转录文本。卸载应用将永久删除所有关联数据。</p>
@@ -71,12 +87,12 @@
 <p>SessionScribe不集成任何第三方分析、广告或追踪SDK。唯一的第三方组件是WhisperKit机器学习库，它完全在您的设备上运行。</p>
 
 <h2>10. 本政策的变更</h2>
-<p>我们可能会不时更新本隐私政策。顶部的\"最后更新\"日期表示最新修订时间。在变更后继续使用本应用即表示您同意更新后的政策。</p>
+<p>我们可能会不时更新本隐私政策。顶部的"最后更新"日期表示最新修订时间。在变更后继续使用本应用即表示您同意更新后的政策。</p>
 
 <div class="contact">
   <strong>联系我们</strong><br>
   如果您对本隐私政策有任何疑问，请通过以下方式联系我们：<br>
-  <a href=\"mailto:tabular.app@gmail.com\">tabular.app@gmail.com</a>
+  <a href="mailto:tabular.app@gmail.com">tabular.app@gmail.com</a>
 </div>
 
 </div>
