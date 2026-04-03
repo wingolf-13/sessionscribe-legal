@@ -1,2 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SessionScribe - Política de Privacidade</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.7; color: #333; background: #fafafa; padding: 20px; }
+  .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 40px 32px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  h1 { font-size: 28px; color: #1a1a2e; margin-bottom: 8px; }
+  .subtitle { color: #888; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 20px; color: #1a1a2e; margin-top: 28px; margin-bottom: 12px; }
+  p { margin-bottom: 14px; font-size: 15px; }
+  ul { margin: 0 0 14px 24px; }
+  li { margin-bottom: 6px; font-size: 15px; }
+  .highlight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 14px 18px; border-radius: 6px; margin: 20px 0; font-size: 15px; }
+  .contact { background: #f5f5f5; padding: 16px 18px; border-radius: 8px; margin-top: 24px; }
+  .contact a { color: #1976d2; }
+  .lang-switcher { max-width: 720px; margin: 0 auto 12px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .lang-switcher a { font-size: 12px; color: #1976d2; text-decoration: none; padding: 4px 8px; border-radius: 4px; }
+  .lang-switcher a:hover { background: #e3f2fd; }
+  .lang-switcher a.active { background: #1a1a2e; color: #fff; pointer-events: none; }
+</style>
+</head>
+<body>
+<div class="lang-switcher">
+  <a href="privacy.html">English</a>
+  <a href="privacy-de.html">Deutsch</a>
+  <a href="privacy-es.html">Español</a>
+  <a href="privacy-fr.html">Français</a>
+  <a href="privacy-it.html">Italiano</a>
+  <a href="privacy-ja.html">日本語</a>
+  <a href="privacy-ko.html">한국어</a>
+  <a href="privacy-pt.html" class="active">Português</a>
+  <a href="privacy-ru.html">Русский</a>
+  <a href="privacy-zh.html">中文</a>
+</div>
+<div class="container">
+
+<h1>Política de Privacidade</h1>
+<p class="subtitle">SessionScribe &middot; Última atualização: 2 de abril de 2026</p>
+
+<div class="highlight">
+  <strong>Princípio fundamental:</strong> O SessionScribe processa todos os dados de áudio e transcrição inteiramente no seu dispositivo. Nenhum áudio, transcrição ou dado pessoal é enviado a servidores externos.
+</div>
+
+<h2>1. Dados que Processamos</h2>
+<p>O SessionScribe grava áudio através do microfone do seu dispositivo e o converte em texto usando modelos de aprendizado de máquina no dispositivo (WhisperKit e CoreML). Os seguintes dados são criados e armazenados localmente no seu dispositivo:</p>
+<ul>
+  <li><strong>Gravações de áudio</strong> &mdash; armazenadas no sandbox do aplicativo até que você as exclua</li>
+  <li><strong>Transcrições e rótulos de falantes</strong> &mdash; armazenados no banco de dados local do aplicativo</li>
+  <li><strong>Metadados da sessão</strong> (título, data, duração, tags) &mdash; armazenados localmente</li>
+  <li><strong>Preferências do aplicativo</strong> (idioma, configurações de exibição, status da assinatura) &mdash; armazenadas no UserDefaults do seu dispositivo</li>
+</ul>
+
+<h2>2. Dados que Não Coletamos</h2>
+<p>Na qualidade de controlador, não coletamos, transmitimos ou armazenamos quaisquer dados em servidores externos. Especificamente:</p>
+<ul>
+  <li>Nenhum áudio é enviado para a nuvem</li>
+  <li>Nenhuma transcrição sai do seu dispositivo</li>
+  <li>Nenhuma informação pessoal é coletada</li>
+  <li>Nenhum dado analítico é enviado a terceiros</li>
+  <li>Nenhum identificador de publicidade é utilizado</li>
+  <li>Nenhuma tecnologia de rastreamento é empregada</li>
+</ul>
+
+<h2>3. Estatísticas Anônimas de Uso (Opcional)</h2>
+<p>Se você ativar "Compartilhar estatísticas anônimas de uso" nas Configurações, o aplicativo armazena dados de uso agregados (como contagem de sessões e minutos totais transcritos) localmente no seu dispositivo. Esses dados são usados exclusivamente para exibir seu painel de uso pessoal. Eles nunca são transmitidos a qualquer servidor.</p>
+
+<h2>4. Microfone e Reconhecimento de Fala</h2>
+<p>O SessionScribe requer acesso ao microfone para gravar áudio. O aplicativo também pode usar a permissão de Reconhecimento de Fala para o processamento de fala no dispositivo da Apple em dispositivos compatíveis (iOS 26+). Ambas as permissões são usadas exclusivamente para transcrição no dispositivo. Você pode revogar essas permissões a qualquer momento nas Configurações do iOS.</p>
+
+<h2>5. Assinaturas e Compras</h2>
+<p>O SessionScribe oferece assinaturas opcionais (Plus e Pro) através do sistema de Compras dentro do Aplicativo da Apple. Todo o processamento de pagamentos é realizado pela Apple. Nós não recebemos, armazenamos ou temos acesso às suas informações de pagamento. O status da assinatura é verificado através do framework StoreKit da Apple no seu dispositivo.</p>
+
+<h2>6. Face ID / Autenticação Biométrica</h2>
+<p>Se você ativar o recurso opcional de bloqueio do aplicativo, o SessionScribe usa o framework LocalAuthentication da Apple para verificar sua identidade. Os dados biométricos (Face ID ou Touch ID) são processados inteiramente pelo iOS e nunca são acessíveis ao aplicativo.</p>
+
+<h2>7. Retenção e Exclusão de Dados</h2>
+<p>Todos os dados são armazenados apenas no seu dispositivo. Como titular dos dados, você pode excluir gravações e transcrições individuais a qualquer momento dentro do aplicativo. A desinstalação do aplicativo remove todos os dados associados permanentemente.</p>
+
+<h2>8. Privacidade de Crianças</h2>
+<p>O SessionScribe não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente qualquer informação de crianças.</p>
+
+<h2>9. Serviços de Terceiros</h2>
+<p>O SessionScribe não integra quaisquer SDKs de análise, publicidade ou rastreamento de terceiros. O único componente de terceiros é a biblioteca de aprendizado de máquina WhisperKit, que é executada inteiramente no seu dispositivo.</p>
+
+<h2>10. Alterações nesta Política</h2>
+<p>Podemos atualizar esta Política de Privacidade periodicamente. A data de "Última atualização" no topo indica a revisão mais recente. O uso continuado do aplicativo após alterações constitui consentimento com a política atualizada.</p>
+
+<div class="contact">
+  <strong>Contato</strong><br>
+  Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco em:<br>
+  <a href="mailto:tabular.app@gmail.com">tabular.app@gmail.com</a>
+</div>
+
+</div>
+</body>
+</html>
