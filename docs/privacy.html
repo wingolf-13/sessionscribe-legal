@@ -6,79 +6,102 @@
 <title>SessionScribe - Privacy Policy</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.7; color: #333; background: #fafafa; padding: 20px; }
-      .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 40px 32px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-        h1 { font-size: 28px; color: #1a1a2e; margin-bottom: 8px; }
-          .subtitle { color: #888; font-size: 14px; margin-bottom: 32px; }
-            h2 { font-size: 20px; color: #1a1a2e; margin-top: 28px; margin-bottom: 12px; }
-              p { margin-bottom: 14px; font-size: 15px; }
-                ul { margin: 0 0 14px 24px; }
-                  li { margin-bottom: 6px; font-size: 15px; }
-                    .highlight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 14px 18px; border-radius: 6px; margin: 20px 0; font-size: 15px; }
-                      .contact { background: #f5f5f5; padding: 16px 18px; border-radius: 8px; margin-top: 24px; }
-                        .contact a { color: #1976d2; }
-                        </style>
-                        </head>
-                        <body>
-                        <div class="container">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.7; color: #333; background: #fafafa; padding: 20px; }
+  .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 40px 32px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  h1 { font-size: 28px; color: #1a1a2e; margin-bottom: 8px; }
+  .subtitle { color: #888; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 20px; color: #1a1a2e; margin-top: 28px; margin-bottom: 12px; }
+  p { margin-bottom: 14px; font-size: 15px; }
+  ul { margin: 0 0 14px 24px; }
+  li { margin-bottom: 6px; font-size: 15px; }
+  .highlight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 14px 18px; border-radius: 6px; margin: 20px 0; font-size: 15px; }
+  .contact { background: #f5f5f5; padding: 16px 18px; border-radius: 8px; margin-top: 24px; }
+  .contact a { color: #1976d2; }
+  .lang-switcher { max-width: 720px; margin: 0 auto 12px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .lang-switcher a { font-size: 12px; color: #1976d2; text-decoration: none; padding: 4px 8px; border-radius: 4px; }
+  .lang-switcher a:hover { background: #e3f2fd; }
+  .lang-switcher a.active { background: #1a1a2e; color: #fff; pointer-events: none; }
+</style>
+</head>
+<body>
+<script>
+(function() {
+  var l = navigator.language.slice(0, 2);
+  var s = {ru:1, de:1, es:1, fr:1, it:1, ja:1, ko:1, pt:1, zh:1};
+  if (s[l]) location.replace(location.pathname.replace('.html', '-' + l + '.html'));
+})();
+</script>
+<div class="lang-switcher">
+  <a href="privacy.html" class="active">English</a>
+  <a href="privacy-de.html">Deutsch</a>
+  <a href="privacy-es.html">Español</a>
+  <a href="privacy-fr.html">Français</a>
+  <a href="privacy-it.html">Italiano</a>
+  <a href="privacy-ja.html">日本語</a>
+  <a href="privacy-ko.html">한국어</a>
+  <a href="privacy-pt.html">Português</a>
+  <a href="privacy-ru.html">Русский</a>
+  <a href="privacy-zh.html">中文</a>
+</div>
+<div class="container">
 
-                        <h1>Privacy Policy</h1>
-                        <p class="subtitle">SessionScribe &middot; Last updated: April 2, 2026</p>
+<h1>Privacy Policy</h1>
+<p class="subtitle">SessionScribe &middot; Last updated: April 2, 2026</p>
 
-                        <div class="highlight">
-                          <strong>Key principle:</strong> SessionScribe processes all audio and transcription data entirely on your device. No audio, transcripts, or personal data are ever sent to external servers.
-                          </div>
+<div class="highlight">
+  <strong>Key principle:</strong> SessionScribe processes all audio and transcription data entirely on your device. No audio, transcripts, or personal data are ever sent to external servers.
+</div>
 
-                          <h2>1. Data We Process</h2>
-                          <p>SessionScribe records audio through your device microphone and converts it to text using on-device machine learning models (WhisperKit and CoreML). The following data is created and stored locally on your device:</p>
-                          <ul>
-                            <li><strong>Audio recordings</strong> &mdash; stored in the app sandbox until you delete them</li>
-                              <li><strong>Transcripts and speaker labels</strong> &mdash; stored in the app's local database</li>
-                                <li><strong>Session metadata</strong> (title, date, duration, tags) &mdash; stored locally</li>
-                                  <li><strong>App preferences</strong> (language, display settings, subscription status) &mdash; stored in UserDefaults on your device</li>
-                                  </ul>
+<h2>1. Data We Process</h2>
+<p>SessionScribe records audio through your device microphone and converts it to text using on-device machine learning models (WhisperKit and CoreML). The following data is created and stored locally on your device:</p>
+<ul>
+  <li><strong>Audio recordings</strong> &mdash; stored in the app sandbox until you delete them</li>
+  <li><strong>Transcripts and speaker labels</strong> &mdash; stored in the app's local database</li>
+  <li><strong>Session metadata</strong> (title, date, duration, tags) &mdash; stored locally</li>
+  <li><strong>App preferences</strong> (language, display settings, subscription status) &mdash; stored in UserDefaults on your device</li>
+</ul>
 
-                                  <h2>2. Data We Do Not Collect</h2>
-                                  <p>We do not collect, transmit, or store any data on external servers. Specifically:</p>
-                                  <ul>
-                                    <li>No audio is sent to the cloud</li>
-                                      <li>No transcripts leave your device</li>
-                                        <li>No personal information is collected</li>
-                                          <li>No analytics data is sent to third parties</li>
-                                            <li>No advertising identifiers are used</li>
-                                              <li>No tracking technologies are employed</li>
-                                              </ul>
+<h2>2. Data We Do Not Collect</h2>
+<p>We do not collect, transmit, or store any data on external servers. Specifically:</p>
+<ul>
+  <li>No audio is sent to the cloud</li>
+  <li>No transcripts leave your device</li>
+  <li>No personal information is collected</li>
+  <li>No analytics data is sent to third parties</li>
+  <li>No advertising identifiers are used</li>
+  <li>No tracking technologies are employed</li>
+</ul>
 
-                                              <h2>3. Optional Anonymous Usage Statistics</h2>
-                                              <p>If you enable "Share anonymous usage stats" in Settings, the app stores aggregated usage data (such as session count and total minutes transcribed) locally on your device. This data is used solely to display your personal usage dashboard. It is never transmitted to any server.</p>
+<h2>3. Optional Anonymous Usage Statistics</h2>
+<p>If you enable "Share anonymous usage stats" in Settings, the app stores aggregated usage data (such as session count and total minutes transcribed) locally on your device. This data is used solely to display your personal usage dashboard. It is never transmitted to any server.</p>
 
-                                              <h2>4. Microphone and Speech Recognition</h2>
-                                              <p>SessionScribe requires microphone access to record audio. The app may also use the Speech Recognition permission for Apple's on-device speech processing on supported devices (iOS 26+). Both permissions are used exclusively for on-device transcription. You can revoke these permissions at any time in iOS Settings.</p>
+<h2>4. Microphone and Speech Recognition</h2>
+<p>SessionScribe requires microphone access to record audio. The app may also use the Speech Recognition permission for Apple's on-device speech processing on supported devices (iOS 26+). Both permissions are used exclusively for on-device transcription. You can revoke these permissions at any time in iOS Settings.</p>
 
-                                              <h2>5. Subscriptions and Purchases</h2>
-                                              <p>SessionScribe offers optional subscriptions (Plus and Pro) through Apple's In-App Purchase system. All payment processing is handled by Apple. We do not receive, store, or have access to your payment information. Subscription status is verified through Apple's StoreKit framework on your device.</p>
+<h2>5. Subscriptions and Purchases</h2>
+<p>SessionScribe offers optional subscriptions (Plus and Pro) through Apple's In-App Purchase system. All payment processing is handled by Apple. We do not receive, store, or have access to your payment information. Subscription status is verified through Apple's StoreKit framework on your device.</p>
 
-                                              <h2>6. Face ID / Biometric Authentication</h2>
-                                              <p>If you enable the optional app lock feature, SessionScribe uses Apple's LocalAuthentication framework to verify your identity. Biometric data (Face ID or Touch ID) is processed entirely by iOS and is never accessible to the app.</p>
+<h2>6. Face ID / Biometric Authentication</h2>
+<p>If you enable the optional app lock feature, SessionScribe uses Apple's LocalAuthentication framework to verify your identity. Biometric data (Face ID or Touch ID) is processed entirely by iOS and is never accessible to the app.</p>
 
-                                              <h2>7. Data Retention and Deletion</h2>
-                                              <p>All data is stored on your device only. You can delete individual recordings and transcripts at any time within the app. Uninstalling the app removes all associated data permanently.</p>
+<h2>7. Data Retention and Deletion</h2>
+<p>All data is stored on your device only. You can delete individual recordings and transcripts at any time within the app. Uninstalling the app removes all associated data permanently.</p>
 
-                                              <h2>8. Children's Privacy</h2>
-                                              <p>SessionScribe is not directed at children under 13. We do not knowingly collect any information from children.</p>
+<h2>8. Children's Privacy</h2>
+<p>SessionScribe is not directed at children under 13. We do not knowingly collect any information from children.</p>
 
-                                              <h2>9. Third-Party Services</h2>
-                                              <p>SessionScribe does not integrate any third-party analytics, advertising, or tracking SDKs. The only third-party component is the WhisperKit machine learning library, which runs entirely on your device.</p>
+<h2>9. Third-Party Services</h2>
+<p>SessionScribe does not integrate any third-party analytics, advertising, or tracking SDKs. The only third-party component is the WhisperKit machine learning library, which runs entirely on your device.</p>
 
-                                              <h2>10. Changes to This Policy</h2>
-                                              <p>We may update this Privacy Policy from time to time. The "Last updated" date at the top indicates the latest revision. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+<h2>10. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The "Last updated" date at the top indicates the latest revision. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
 
-                                              <div class="contact">
-                                                <strong>Contact</strong><br>
-                                                  If you have questions about this Privacy Policy, please contact us at:<br>
-                                                    <a href="mailto:tabular.app@gmail.com">tabular.app@gmail.com</a>
-                                                    </div>
+<div class="contact">
+  <strong>Contact</strong><br>
+  If you have questions about this Privacy Policy, please contact us at:<br>
+  <a href="mailto:tabular.app@gmail.com">tabular.app@gmail.com</a>
+</div>
 
-                                                    </div>
-                                                    </body>
-                                                    </html>
+</div>
+</body>
+</html>
