@@ -10,3 +10,127 @@
 <meta property="og:url" content="https://benchmarkio.github.io/sessionscribe-legal/privacy-de.html">
 <meta property="og:site_name" content="SessionScribe">
 <title>SessionScribe - Datenschutzerklärung</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.7; color: #333; background: #fafafa; padding: 20px; }
+  .container { max-width: 720px; margin: 0 auto; background: #fff; padding: 40px 32px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  h1 { font-size: 28px; color: #1a1a2e; margin-bottom: 8px; }
+  .subtitle { color: #888; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 20px; color: #1a1a2e; margin-top: 28px; margin-bottom: 12px; }
+  p { margin-bottom: 14px; font-size: 15px; }
+  ul { margin: 0 0 14px 24px; }
+  li { margin-bottom: 6px; font-size: 15px; }
+  .highlight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 14px 18px; border-radius: 6px; margin: 20px 0; font-size: 15px; }
+  .contact { background: #f5f5f5; padding: 16px 18px; border-radius: 8px; margin-top: 24px; }
+  .contact a { color: #1976d2; }
+  .lang-switcher { max-width: 720px; margin: 0 auto 12px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .lang-switcher a { font-size: 12px; color: #1976d2; text-decoration: none; padding: 4px 8px; border-radius: 4px; }
+  .lang-switcher a:hover { background: #e3f2fd; }
+  .lang-switcher a.active { background: #1a1a2e; color: #fff; pointer-events: none; }
+
+  /* Site navigation */
+  .site-nav { max-width: 720px; margin: 0 auto 8px; display: flex; align-items: center; justify-content: space-between; padding: 8px 0; }
+  .site-nav .site-name { font-size: 16px; font-weight: 700; color: #1a1a2e; text-decoration: none; }
+  .site-nav .site-name:hover { color: #2e75b6; }
+  .site-nav .nav-links { display: flex; gap: 16px; }
+  .site-nav .nav-links a { font-size: 13px; color: #666; text-decoration: none; }
+  .site-nav .nav-links a:hover { color: #1976d2; }
+  .site-nav .nav-links a.current { color: #1a1a2e; font-weight: 600; }
+  /* Footer */
+  .site-footer { max-width: 720px; margin: 24px auto 0; padding: 20px 0; border-top: 1px solid #e0e0e0; text-align: center; }
+  .site-footer p { font-size: 12px; color: #999; margin-bottom: 6px; }
+  .site-footer .footer-links { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+  .site-footer .footer-links a { font-size: 12px; color: #999; text-decoration: none; }
+  .site-footer .footer-links a:hover { color: #1976d2; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="index.html" class="site-name">SessionScribe</a>
+  <div class="nav-links">
+    <a href="privacy-de.html" class="current">Datenschutzrichtlinie</a>
+    <a href="terms-de.html">Nutzungsbedingungen</a>
+  </div>
+</nav>
+<div class="lang-switcher">
+  <a href="privacy.html">English</a>
+  <a href="privacy-de.html" class="active">Deutsch</a>
+  <a href="privacy-es.html">Español</a>
+  <a href="privacy-fr.html">Français</a>
+  <a href="privacy-it.html">Italiano</a>
+  <a href="privacy-ja.html">日本語</a>
+  <a href="privacy-ko.html">한국어</a>
+  <a href="privacy-pt.html">Português</a>
+  <a href="privacy-ru.html">Русский</a>
+  <a href="privacy-zh.html">中文</a>
+</div>
+<div class="container">
+
+<h1>Datenschutzerklärung</h1>
+<p class="subtitle">SessionScribe &middot; Letzte Aktualisierung: 2. April 2026</p>
+
+<div class="highlight">
+  <strong>Grundprinzip:</strong> SessionScribe verarbeitet alle Audio- und Transkriptionsdaten ausschließlich auf Ihrem Gerät. Keine Audioaufnahmen, Transkripte oder personenbezogene Daten werden jemals an externe Server übermittelt.
+</div>
+
+<h2>1. Daten, die wir verarbeiten</h2>
+<p>SessionScribe nimmt Audio über das Mikrofon Ihres Geräts auf und wandelt es mithilfe von maschinellen Lernmodellen auf dem Gerät (WhisperKit und CoreML) in Text um. Die folgenden Daten werden lokal auf Ihrem Gerät erstellt und gespeichert:</p>
+<ul>
+  <li><strong>Audioaufnahmen</strong> &mdash; werden in der App-Sandbox gespeichert, bis Sie sie löschen</li>
+  <li><strong>Transkripte und Sprecherkennzeichnungen</strong> &mdash; werden in der lokalen Datenbank der App gespeichert</li>
+  <li><strong>Sitzungsmetadaten</strong> (Titel, Datum, Dauer, Tags) &mdash; werden lokal gespeichert</li>
+  <li><strong>App-Einstellungen</strong> (Sprache, Anzeigeeinstellungen, Abonnementstatus) &mdash; werden in UserDefaults auf Ihrem Gerät gespeichert</li>
+</ul>
+
+<h2>2. Daten, die wir nicht erheben</h2>
+<p>Wir erheben, übermitteln oder speichern keine Daten auf externen Servern. Im Einzelnen:</p>
+<ul>
+  <li>Keine Audioaufnahmen werden in die Cloud gesendet</li>
+  <li>Keine Transkripte verlassen Ihr Gerät</li>
+  <li>Keine personenbezogenen Daten werden erhoben</li>
+  <li>Keine Analysedaten werden an Dritte weitergegeben</li>
+  <li>Keine Werbe-Identifikatoren werden verwendet</li>
+  <li>Keine Tracking-Technologien werden eingesetzt</li>
+</ul>
+
+<h2>3. Optionale anonyme Nutzungsstatistiken</h2>
+<p>Wenn Sie in den Einstellungen „Anonyme Nutzungsstatistiken teilen" aktivieren, speichert die App aggregierte Nutzungsdaten (wie Sitzungsanzahl und insgesamt transkribierte Minuten) lokal auf Ihrem Gerät. Diese Daten werden ausschließlich zur Anzeige Ihres persönlichen Nutzungs-Dashboards verwendet. Sie werden niemals an einen Server übermittelt.</p>
+
+<h2>4. Mikrofon und Spracherkennung</h2>
+<p>SessionScribe benötigt Zugriff auf das Mikrofon, um Audio aufzunehmen. Die App kann außerdem die Spracherkennungsberechtigung für Apples geräteinterne Sprachverarbeitung auf unterstützten Geräten (iOS 26+) verwenden. Beide Berechtigungen werden ausschließlich für die geräteinterne Transkription genutzt. Sie können diese Berechtigungen jederzeit in den iOS-Einstellungen widerrufen.</p>
+
+<h2>5. Abonnements und Käufe</h2>
+<p>SessionScribe bietet optionale Abonnements (Plus und Pro) über Apples In-App-Kaufsystem an. Die gesamte Zahlungsabwicklung erfolgt durch Apple. Wir erhalten, speichern oder haben keinen Zugang zu Ihren Zahlungsinformationen. Der Abonnementstatus wird über Apples StoreKit-Framework auf Ihrem Gerät verifiziert.</p>
+
+<h2>6. Face ID / Biometrische Authentifizierung</h2>
+<p>Wenn Sie die optionale App-Sperre aktivieren, verwendet SessionScribe Apples LocalAuthentication-Framework zur Identitätsprüfung. Biometrische Daten (Face ID oder Touch ID) werden ausschließlich von iOS verarbeitet und sind für die App zu keinem Zeitpunkt zugänglich.</p>
+
+<h2>7. Datenspeicherung und Löschung</h2>
+<p>Alle Daten werden ausschließlich auf Ihrem Gerät gespeichert. Sie können einzelne Aufnahmen und Transkripte jederzeit innerhalb der App löschen. Durch die Deinstallation der App werden alle zugehörigen Daten endgültig entfernt.</p>
+
+<h2>8. Datenschutz für Kinder</h2>
+<p>SessionScribe richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine Daten von Kindern.</p>
+
+<h2>9. Drittanbieterdienste</h2>
+<p>SessionScribe integriert keine Analyse-, Werbe- oder Tracking-SDKs von Drittanbietern. Die einzige Drittanbieterkomponente ist die WhisperKit-Bibliothek für maschinelles Lernen, die vollständig auf Ihrem Gerät ausgeführt wird.</p>
+
+<h2>10. Änderungen dieser Datenschutzerklärung</h2>
+<p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Das Datum „Letzte Aktualisierung" oben gibt die jeweils neueste Fassung an. Die fortgesetzte Nutzung der App nach Änderungen gilt als Zustimmung zur aktualisierten Datenschutzerklärung.</p>
+
+<div class="contact">
+  <strong>Kontakt</strong><br>
+  Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:<br>
+  <a href="mailto:sessionscribe.app@gmail.com">sessionscribe.app@gmail.com</a>
+</div>
+
+</div>
+<footer class="site-footer">
+  <p>&copy; 2026 SessionScribe. Alle Rechte vorbehalten.</p>
+  <div class="footer-links">
+    <a href="privacy-de.html">Datenschutzrichtlinie</a>
+    <a href="terms-de.html">Nutzungsbedingungen</a>
+    <a href="mailto:sessionscribe.app@gmail.com">sessionscribe.app@gmail.com</a>
+  </div>
+</footer>
+</body>
+</html>
