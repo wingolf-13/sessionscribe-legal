@@ -54,6 +54,8 @@
 </nav>
 <script>
 (function() {
+  var ref = document.referrer;
+  if (ref && ref.indexOf('benchmarkio.github.io/sessionscribe-legal') !== -1) return;
   var l = navigator.language.slice(0, 2);
   var s = {ru:1, de:1, es:1, fr:1, it:1, ja:1, ko:1, pt:1, zh:1};
   if (s[l]) location.replace(location.pathname.replace('.html', '-' + l + '.html'));
